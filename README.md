@@ -45,7 +45,7 @@ O projeto foi pensado para ser:
 ## 📂 Estrutura do Projeto
 
 ```bash
-discord_bot_crazyage/
+crazyage-discord-bot/
 ├── main.py
 ├── requirements.txt
 ├── cogs
@@ -76,10 +76,10 @@ discord_bot_crazyage/
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/Henrique02W/discord_bot_crazyage.git
+git clone https://github.com/Henrique02W/crazyage-discord-bot.git
 
 # Entrar na pasta
-cd discord_bot_crazyage
+cd crazyage-discord-bot
 ```
 
 Instale as dependências:
