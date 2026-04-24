@@ -23,5 +23,5 @@ class MyBot(commands.Bot):
 
 bot = MyBot()
 if __name__ == "__main__":
-    TOKEN = 'MTA0MDMyOTg0MzU2NjQ0ODc4Mg.GzW9Pc.AVSx786zjVo09E3NmijZA9Nf7qY7wUw--EjXSo'
+    TOKEN = 'seu_token_aqui'
     bot.run(TOKEN)
