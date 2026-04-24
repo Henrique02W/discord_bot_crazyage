@@ -39,7 +39,6 @@ O projeto foi pensado para ser:
 * 🐍 Python
 * 📦 discord.py
 * 💾 Banco de dados local (JSON / SQLite)
-* 🔗 Integrações via API (opcional)
 
 ---
 
@@ -48,11 +47,15 @@ O projeto foi pensado para ser:
 ```bash
 discord_bot_crazyage/
 ├── main.py
-├── commands/
-├── events/
-├── database/
-├── config/
-├── utils/
+├── requirements.txt
+├── cogs
+    ├── autorole.py
+    ├── formulario.py
+    ├── general.py
+    ├── minecraft.py
+    ├── reactions.py
+    ├── sugestões.py
+    └── tickets.py
 ├── LICENSE
 └── README.md
 ```
@@ -89,10 +92,9 @@ pip install -r requirements.txt
 
 ### 🔑 Configuração
 
-1. Crie um arquivo `.env` ou edite sua config:
-
-```env
-DISCORD_TOKEN=seu_token_aqui
+1. Edite o main.py
+```
+TOKEN = =seu_token_aqui
 ```
 
 2. Configure os arquivos dentro da pasta `/config`
@@ -114,7 +116,6 @@ Após iniciar o bot:
 * Convide o bot para seu servidor
 * Configure permissões e cargos
 * Configure tickets e enquetes
-* Integre com seu servidor Minecraft (opcional)
 
 ---
 
@@ -126,15 +127,14 @@ Este projeto está sob uma **Licença Personalizada Não Comercial**.
 
 Você pode:
 
-* ✅ Usar para fins pessoais
-* ✅ Usar para fins educacionais
-* ✅ Fazer forks e modificar
+* Usar para fins pessoais
+* Usar para fins educacionais
+* Fazer forks e modificar
 
 Você NÃO pode:
 
-* ❌ Vender o bot
-* ❌ Usar em servidores pagos
-* ❌ Monetizar qualquer parte do projeto
+* Vender o bot
+* Monetizar qualquer parte do projeto
 
 📩 Para uso comercial, entre em contato com o autor.
 
@@ -143,16 +143,6 @@ Você NÃO pode:
 ## 🤝 Contribuindo
 
 Contribuições são bem-vindas!
-
-```bash
-git checkout -b feature/minha-feature
-git commit -m "feat: nova funcionalidade"
-git push origin feature/minha-feature
-```
-
-Depois, abra um Pull Request 🚀
-
----
 
 ## 🐛 Problemas (Issues)
 
@@ -164,22 +154,13 @@ Encontrou um bug ou tem uma sugestão?
 
 ---
 
-## 📊 Roadmap
-
-* [ ] Dashboard web
-* [ ] Sistema avançado de moderação
-* [ ] Migração para slash commands
-* [ ] Banco de dados otimizado
-* [ ] Suporte a múltiplos servidores
-
----
-
 ## 📬 Contato
 
-👤 **Henrique Forever**
+👤 **Henrique02W**
 
 * GitHub: https://github.com/Henrique02W
-
+* Discord: henrique02#7075
+  
 ---
 
 ## ⭐ Apoie o Projeto
